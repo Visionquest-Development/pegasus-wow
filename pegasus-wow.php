@@ -20,7 +20,7 @@ Domain Path: /languages
 	}
 
 	function pegasus_wow_menu_item() {
-		add_menu_page("wow", "wow", "manage_options", "pegasus_wow_plugin_options", "pegasus_wow_plugin_settings_page", null, 99);
+		//add_menu_page("wow", "wow", "manage_options", "pegasus_wow_plugin_options", "pegasus_wow_plugin_settings_page", null, 99);
 		
 	}
 	add_action("admin_menu", "pegasus_wow_menu_item");
@@ -28,7 +28,7 @@ Domain Path: /languages
 	function pegasus_wow_plugin_settings_page() { ?>
 	    <div class="wrap pegasus-wrap">
 	    <h1>wow</h1>			
-			<p>Shortcode Usage: <pre>[counter_up number="83"] </pre></p>	
+			<!--<p>Shortcode Usage: <pre>[counter_up number="83"] </pre></p>-->
 			
 		</div>
 	<?php
