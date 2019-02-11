@@ -97,3 +97,26 @@ Domain Path: /languages
 		END CODE
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+
+	/*~~~~~~~~~~~~~~~~~~~~
+	WOW
+	~~~~~~~~~~~~~~~~~~~~~*/
+
+	// [wow id="bounce"] text [/wow]
+	function pegasus_wow_func( $atts, $content = null ) {
+		$a = shortcode_atts( array(
+			'id' => '',
+		), $atts );
+
+		$output = '';
+
+		$output .= '<div class="wow ' . $a['id'] . '">';
+		$output .= do_shortcode( $content );
+		$output .= '</div>';
+
+		return $output;
+	}
+	add_shortcode( 'wow', 'pegasus_wow_func' );
