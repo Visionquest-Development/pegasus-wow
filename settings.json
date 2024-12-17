@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "section_name": "Wow Settings",
+      "rows": [
+        {
+          "name": "Class",
+          "attribute": "class",
+          "options": "Any class name",
+          "description": "Add a class to the tab container",
+          "example": "class=\"test\""
+        }
+      ]
+    }
+  ]
+}
