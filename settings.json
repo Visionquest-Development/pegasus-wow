@@ -4,11 +4,11 @@
       "section_name": "Wow Settings",
       "rows": [
         {
-          "name": "Class",
-          "attribute": "class",
-          "options": "Any class name",
-          "description": "Add a class to the tab container",
-          "example": "class=\"test\""
+          "name": "ID",
+          "attribute": "id",
+          "options": "tada, fadeIn, fadeInUp, fadeInDown, fadeInLeft, fadeInRight, fadeInUpBig, fadeInDownBig, fadeInLeftBig, fadeInRightBig, bounce, bounceIn, bounceInUp, bounceInDown, bounceInLeft, bounceInRight, rotateIn, rotateInUpLeft, rotateInDownLeft, rotateInUpRight, rotateInDownRight, lightSpeedIn, rollIn, zoomIn, zoomInUp, zoomInDown, zoomInLeft, zoomInRight, slideInUp, slideInDown, slideInLeft, slideInRight, flip, flipInX, flipInY",
+          "description": "Use any Animate.css class",
+          "example": "id=\"tada\""
         }
       ]
     }
