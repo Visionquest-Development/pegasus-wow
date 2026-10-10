@@ -195,7 +195,7 @@ Domain Path: /languages
 	}
 
 	function pegasus_wow_plugin_styles() {
-		wp_enqueue_style( 'animate-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/animate.css', array(), null, 'all' );
+		wp_enqueue_style( 'animate-css', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'css/animate.css', array(), '4.1.1', 'all' );
 
 	}
 	add_action( 'wp_enqueue_scripts', 'pegasus_wow_plugin_styles' );
@@ -210,7 +210,7 @@ Domain Path: /languages
 
 		//wp_enqueue_script( 'images-loaded-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/imagesLoaded.js', array( 'jquery' ), null, true );
 
-		wp_enqueue_script( 'wow-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/wow.js', array( 'jquery' ), null, true );
+		wp_enqueue_script( 'wow-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/wow.js', array( 'jquery' ), '1.1.3', true );
 		//wp_enqueue_script( 'pegasus-wow-plugin-js', trailingslashit( plugin_dir_url( __FILE__ ) ) . 'js/plugin.js', array( 'jquery' ), null, true );
 
 	} //end function
